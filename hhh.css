@@ -1,0 +1,28 @@
+.signup-link {
+    font-weight: bold;
+    color: #ff6600; /* highlight signup */
+}
+.signup-form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.signup-form label {
+    margin-top: 10px;
+}
+.signup-form input {
+    padding: 8px;
+    margin-top: 5px;
+}
+.signup-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.signup-form button:hover {
+    background-color: #cc5200;
+}

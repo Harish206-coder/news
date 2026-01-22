@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Noto Sans Tamil", Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #b30000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+#news-card {
+    background: white;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.news-card img {
+    width: 250px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 15px;
+}
+
+.date {
+    color: gray;
+    font-size: 13px;
+}
+
+.news-content a {
+    color: #b30000;
+    font-weight: bolder;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .news-card {
+        flex-direction: column;
+    }
+
+    .news-card img {
+        width: 100%;
+        height: 200px;
+    }
+}
